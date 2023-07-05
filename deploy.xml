@@ -49,15 +49,15 @@
     <!-- ### ANT_DEPLOY_PROPERTIES_START ### -->
     <property environment="env"/>
     <property name="natural.ant.deploy.scratch" value="NO" />
-    <property name="natural.ant.project.steplibs" value="1;NATURALD;" />
+    <property name="natural.ant.project.steplibs" value="2;PROGRAM;LOCALDAT;" />
     <property name="natural.ant.project.name" value="HelloWorld" />
     <property name="natural.ant.server.hostname" value="3.7.45.221" />
     <property name="natural.ant.failonerror" value="NO" />
     <property name="natural.ant.deploy.upload" value="YES" />
     <property name="natural.ant.deploy.scope" value="3" />
     <property name="natural.ant.reference.enable" value="NO" />
-    <property name="natural.ant.mapping.string" value="NATURALL=NATURALL;" />
-    <property name="natural.ant.deploy.upload.sysobjh.library" value="WORKPLAN" />
+    <property name="natural.ant.mapping.string" value="LOCALDAT=LOCALDAT;PROGRAM=PROGRAM;" />
+    <property name="natural.ant.deploy.upload.sysobjh.library" value="CICDDEP" />
     <property name="natural.ant.server.port" value="2700" />
     <property name="natural.ant.project.steplib.nsv" value="" />
     <property name="natural.ant.server.username" value="SAGAR" />
@@ -71,12 +71,12 @@
     <property name="natural.ant.deploy.stow" value="NO" />
     <property name="natural.ant.deploy.full" value="NO" />
     <property name="natural.ant.server.secured.environment" value="NO" />
-    <property name="natural.ant.library.steplib.nsv" value="NATURALL;!;!" />
+    <property name="natural.ant.library.steplib.nsv" value="LOCALDAT;!;!PROGRAM;!;!" />
     <property name="natural.ant.deploy.delete" value="NO" />
     <property name="natural.ant.server.environment" value="3.7.45.221-2700" />
-    <property name="natural.ant.source.type.selection" value="2736127" />
+    <property name="natural.ant.source.type.selection" value="2732031" />
     <property name="natural.ant.server.password" value="" />
-    <property name="natural.ant.library.steplibs" value="NATURALL;0;!;!" />
+    <property name="natural.ant.library.steplibs" value="LOCALDAT;0;!;!PROGRAM;0;!;!" />
     <property name="natural.ant.server.parameters" value="" />
     <property name="natural.ant.mapping.enable" value="NO" />
     <property name="natural.ant.project.rootdir" value="C:\Users\Sagar\naturalhellow" />
@@ -87,7 +87,7 @@
     <property name="natural.ant.deploy.catalog" value="YES" />
     <property name="natural.ant.deploy.create.sysobjh" value="YES" />
     <property name="natural.ant.deploy.history.log.level" value="1" />
-    <property name="natural.ant.repository.url" value="C:/Users/Sagar/naturalhellow/.git" />
+    <property name="natural.ant.repository.url" value="https://github.com/sagarekhar/naturalhellow.git" />
     <property name="natural.ant.server.usessl" value="NO" />
     <property name="natural.ant.deploy.retain.unchanged.sources" value="NO" />
     <property name="natural.ant.repository.module" value="HelloWorld" />

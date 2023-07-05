@@ -1,0 +1,13 @@
+DEFINE DATA LOCAL
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Local Data Area TESTL.
+/**
+/** :author Sagar
+/* TODO Enter your data definitions here
+1 SAMPLE-CP
+  2 SAMPLE-ID (N8.0)
+  2 SAMPLE-STATUS (A1)
+END-DEFINE
